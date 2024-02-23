@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-image: url('C:\Users\deoma\Downloads\FOODCOURT (2)\FOODCOURT\frontend\public\foods\background-1.jpg');
+  background-size: cover;
+}
+
+/* Style for the login form */
+.details {
+  text-align: center; /* Center text within the .details container */
+  width: 28rem;
+  background-color: rgba(255, 255, 255, 0.498); /* Semi-transparent white background */
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* Style for the login form */
+.details form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for labels */
+.details form label {
+  margin-bottom: 0.5rem;
+  font-size: 1rem; /* Adjust font size */
+  color: #000; /* Dark black color */
+  font-weight: bold; /* Make it bold */
+}
+
+/* Style for input fields */
+.details form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem; /* Adjust font size */
+}
+
+/* Style for the login button */
+.details form button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #007bff; /* Blue button color */
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem; /* Adjust font size */
+}
+
+/* Hover effect for the login button */
+.details form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for the "New user? Register here" text */
+.register {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Style for the "Register here" link */
+.register a {
+  color: #007bff; /* Blue link color */
+}
+
+/* Hover effect for the "Register here" link */
+.register a:hover {
+  text-decoration: underline; /* Underline link on hover */
+}
